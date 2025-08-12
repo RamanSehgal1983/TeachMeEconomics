@@ -75,6 +75,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+<<<<<<< HEAD
 }
 
 /* Mobile Menu Styles */
@@ -159,3 +160,6 @@ body {
         font-size: 1.125rem; /* 18px */
     }
 }
+=======
+}
+>>>>>>> 3cc712fe38c087bd4860d4ba930b69982d382972
