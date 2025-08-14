@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://TeachMeEconomics.online/sitemap.xml
