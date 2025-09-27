@@ -24,14 +24,40 @@
 <body class="bg-gray-100 text-gray-800">
 
     <!-- Header & Navigation -->
-    <header class="bg-gray-800 text-white shadow-lg">
+    <header class="bg-gray-800 text-white shadow-lg sticky-header">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="index.html" class="text-2xl font-bold"><h1>TeachMeEconomics</h1></a>
             <div class="hidden md:flex space-x-6 desktop-menu">
                 <a href="index.html" class="nav-link">Home</a>
-                <a href="year-1.html" class="nav-link">Year 1</a>
-                <a href="year-2.html" class="nav-link">Year 2</a>
-                <a href="year-3.html" class="nav-link font-semibold text-gray-200">Year 3</a>
+                <div class="dropdown">
+                    <a href="year-1.html" class="nav-link">Year 1</a>
+                    <div class="dropdown-content">
+                        <a>Introductory Microeconomics</a>
+                        <a>Mathematical Methods for Economics-I</a>
+                        <a>Introductory Macroeconomics</a>
+                        <a>Mathematical Methods for Economics-II</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="year-2.html" class="nav-link">Year 2</a>
+                    <div class="dropdown-content">
+                        <a>Intermediate Microeconomics-I</a>
+                        <a>Intermediate Macroeconomics-I</a>
+                        <a>Statistical Methods for Economics</a>
+                        <a>Intermediate Microeconomics-II</a>
+                        <a>Intermediate Macroeconomics-II</a>
+                        <a>Introductory Econometrics</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="year-3.html" class="nav-link font-semibold text-gray-200">Year 3</a>
+                    <div class="dropdown-content">
+                        <a>Indian Economy-I</a>
+                        <a>Development Economics-I</a>
+                        <a>Indian Economy-II</a>
+                        <a>Development Economics-II</a>
+                    </div>
+                </div>
                 <a href="about.html" class="nav-link">About Us</a>
                 <a href="contact.html" class="nav-link">Contact Us</a>
             </div>
