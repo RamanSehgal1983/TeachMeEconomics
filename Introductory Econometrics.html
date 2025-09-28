@@ -14,9 +14,9 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A detailed guide to Mathematical Methods for Economics-II, a core course in the first-year Economics Honors syllabus. Covers multi-variable calculus and linear algebra.">
-    <meta name="keywords" content="Mathematical Methods for Economics, MME-II, Economics Honors, First Year Economics, Multi-variable Calculus, Linear Algebra, Optimization">
-    <title>Mathematical Methods for Economics-II - TeachMeEconomics</title>
+    <meta name="description" content="A detailed guide to Introductory Econometrics, a core course in the second-year Economics Honors syllabus. Covers regression analysis and its applications.">
+    <meta name="keywords" content="Introductory Econometrics, Econometrics, Economics Honors, Second Year Economics, Regression Analysis, OLS, CLRM">
+    <title>Introductory Econometrics - TeachMeEconomics</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
@@ -30,23 +30,23 @@
             <div class="hidden md:flex space-x-6 desktop-menu">
                 <a href="index.html" class="nav-link">Home</a>
                 <div class="dropdown">
-                    <a href="year-1.html" class="nav-link font-semibold text-gray-200">Year 1</a>
+                    <a href="year-1.html" class="nav-link">Year 1</a>
                     <div class="dropdown-content">
-                        <a href="Introductory Microeconomics.html">Introductory Microeconomics</a>
-                        <a href="Mathematical Methods for Economics-I.html">Mathematical Methods for Economics-I</a>
-                        <a href="Introductory Macroeconomics.html">Introductory Macroeconomics</a>
-                        <a href="Mathematical Methods for Economics-II.html" class="font-bold">Mathematical Methods for Economics-II</a>
+                        <a href="introductory-microeconomics.html">Introductory Microeconomics</a>
+                        <a href="mathematical-methods-for-economics-I.html">Mathematical Methods for Economics-I</a>
+                        <a href="introductory-macroeconomics.html">Introductory Macroeconomics</a>
+                        <a href="mathematical-methods-for-economics-II.html">Mathematical Methods for Economics-II</a>
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a href="year-2.html" class="nav-link">Year 2</a>
+                    <a href="year-2.html" class="nav-link font-semibold text-gray-200">Year 2</a>
                     <div class="dropdown-content">
-                        <a href="Intermediate Microeconomics-I.html">Intermediate Microeconomics-I</a>
-                        <a href="Intermediate Macroeconomics-I.html">Intermediate Macroeconomics-I</a>
-                        <a href="Statistical Methods for Economics.html">Statistical Methods for Economics</a>
-                        <a href="Intermediate Microeconomics-II.html">Intermediate Microeconomics-II</a>
-                        <a href="Intermediate Macroeconomics-II.html">Intermediate Macroeconomics-II</a>
-                        <a href="Introductory Econometrics.html">Introductory Econometrics</a>
+                        <a href="intermediate-microeconomics-I.html">Intermediate Microeconomics-I</a>
+                        <a href="intermediate-macroeconomics-I.html">Intermediate Macroeconomics-I</a>
+                        <a href="statistical-methods-for-economics.html">Statistical Methods for Economics</a>
+                        <a href="intermediate-microeconomics-II.html">Intermediate Microeconomics-II</a>
+                        <a href="intermediate-macroeconomics-II.html">Intermediate Macroeconomics-II</a>
+                        <a href="introductory-econometrics.html" class="font-bold">Introductory Econometrics</a>
                     </div>
                 </div>
                 <div class="dropdown">
@@ -69,8 +69,8 @@
         </nav>
         <div id="mobile-menu" class="hidden mobile-menu">
             <a href="index.html" class="nav-link">Home</a>
-            <a href="year-1.html" class="nav-link font-semibold text-gray-200">Year 1</a>
-            <a href="year-2.html" class="nav-link">Year 2</a>
+            <a href="year-1.html" class="nav-link">Year 1</a>
+            <a href="year-2.html" class="nav-link font-semibold text-gray-200">Year 2</a>
             <a href="year-3.html" class="nav-link">Year 3</a>
             <a href="about.html" class="nav-link">About Us</a>
             <a href="contact.html" class="nav-link">Contact Us</a>
@@ -82,8 +82,8 @@
 
         <!-- Page Title -->
         <section class="text-center mb-12" aria-labelledby="page-title">
-            <h2 id="page-title" class="text-5xl font-bold text-gray-900 mb-4">Core Course 4: Mathematical Methods for Economics-II</h2>
-            <p class="text-xl text-gray-600">This course builds upon MME-I, introducing multi-variable calculus and linear algebra, essential for advanced economic modeling and optimization.</p>
+            <h2 id="page-title" class="text-5xl font-bold text-gray-900 mb-4">Core Course 10: Introductory Econometrics</h2>
+            <p class="text-xl text-gray-600">This course provides the tools to quantify economic relationships, test economic theories, and evaluate policies using real-world data.</p>
         </section>
 
         <!-- Course Details -->
@@ -92,62 +92,62 @@
             <div class="space-y-12">
                 
                 <div class="course-card p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-bold mb-3">1. Functions of Several Real Variables</h3>
-                    <p class="mb-4">This unit extends the concept of functions to cases involving multiple independent variables, which is common in economics (e.g., utility depending on quantities of several goods). We will explore how to visualize these functions and introduce the concept of partial derivatives to measure the rate of change with respect to one variable while holding others constant.</p>
+                    <h3 class="text-2xl font-bold mb-3">1. The Classical Linear Regression Model (CLRM)</h3>
+                    <p class="mb-4">This unit introduces the foundational model of econometrics: the CLRM. We begin with the simple two-variable model and extend it to the multiple regression model. The focus is on understanding the assumptions of the model (e.g., linearity, no perfect multicollinearity, homoskedasticity), which are crucial for the validity of our estimation results.</p>
                     <h4 class="font-semibold text-lg mb-2">Key Topics:</h4>
                     <ul class="list-disc list-inside space-y-1 text-gray-700">
-                        <li>Geometric Representation: Level Curves and Level Surfaces</li>
-                        <li>Partial Derivatives and their Economic Interpretation</li>
-                        <li>The Total Differential</li>
-                        <li>Homogeneous Functions and Euler's Theorem</li>
+                        <li>The Two-Variable and Multiple Regression Models</li>
+                        <li>The Assumptions of the CLRM</li>
+                        <li>Interpretation of Regression Coefficients</li>
+                        <li>Goodness of Fit: R-squared and Adjusted R-squared</li>
                     </ul>
                 </div>
 
                 <div class="course-card p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-bold mb-3">2. Multi-variable Optimization (Unconstrained and Constrained)</h3>
-                    <p class="mb-4">This is a core unit that applies multi-variable calculus to solve complex economic optimization problems. We will first examine unconstrained optimization. Then, we introduce the more realistic scenario of constrained optimization, using the Lagrangian multiplier method. This technique is fundamental for analyzing consumer choice subject to a budget constraint and firm decisions subject to cost constraints.</p>
+                    <h3 class="text-2xl font-bold mb-3">2. Ordinary Least Squares (OLS) Estimation</h3>
+                    <p class="mb-4">This unit covers the most common method for estimating the parameters of a regression model: Ordinary Least Squares (OLS). We will derive the OLS estimators and study their statistical properties. The Gauss-Markov Theorem is a key result, stating that under the CLRM assumptions, OLS estimators are the "best" (most efficient) among all linear unbiased estimators (BLUE).</p>
                     <h4 class="font-semibold text-lg mb-2">Key Topics:</h4>
                     <ul class="list-disc list-inside space-y-1 text-gray-700">
-                        <li>First and Second-Order Conditions for Unconstrained Optimization</li>
-                        <li>Constrained Optimization and the Method of Lagrange Multipliers</li>
-                        <li>Interpretation of the Lagrange Multiplier (Shadow Price)</li>
-                        <li>Applications: Utility Maximization and Cost Minimization</li>
+                        <li>Derivation of the OLS estimators</li>
+                        <li>Properties of OLS: Unbiasedness and Efficiency</li>
+                        <li>The Gauss-Markov Theorem and the BLUE property</li>
+                        <li>Variance and Standard Errors of OLS Estimators</li>
                     </ul>
                 </div>
 
                 <div class="course-card p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-bold mb-3">3. Linear Algebra: Vectors and Matrices</h3>
-                    <p class="mb-4">This unit introduces the tools of linear algebra, which provide a powerful and concise way to represent and solve systems of equations. We will cover vectors and matrices, and the various operations that can be performed on them. This is essential for handling large-scale economic models, econometrics, and input-output analysis.</p>
+                    <h3 class="text-2xl font-bold mb-3">3. Hypothesis Testing and Model Specification</h3>
+                    <p class="mb-4">Once we have estimated a model, we need to test hypotheses about the population parameters. This unit covers how to test the statistical significance of individual coefficients (using t-tests) and the overall significance of the regression model (using the F-test). We will also discuss issues related to model specification, such as choosing the correct variables and functional form.</p>
                     <h4 class="font-semibold text-lg mb-2">Key Topics:</h4>
                     <ul class="list-disc list-inside space-y-1 text-gray-700">
-                        <li>Vectors: Geometric and Algebraic Representation</li>
-                        <li>Matrix Operations: Addition, Subtraction, and Multiplication</li>
-                        <li>The Transpose and Inverse of a Matrix</li>
-                        <li>Determinants and their Properties</li>
+                        <li>Testing Hypotheses about a Single Coefficient (t-test)</li>
+                        <li>Confidence Intervals for Coefficients</li>
+                        <li>Testing Overall Significance of the Regression (F-test)</li>
+                        <li>Testing Linear Restrictions on Coefficients</li>
+                        <li>Specification Errors: Omitted and Irrelevant Variables</li>
                     </ul>
                 </div>
                 
                 <div class="course-card p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-bold mb-3">4. Systems of Linear Equations</h3>
-                    <p class="mb-4">This unit applies the matrix algebra tools to solve systems of linear equations, which frequently appear in economic models (e.g., finding the equilibrium in a multi-market model). We will learn systematic methods like Cramer's Rule and matrix inversion to find unique solutions to these systems.</p>
+                    <h3 class="text-2xl font-bold mb-3">4. Violations of Classical Assumptions</h3>
+                    <p class="mb-4">This unit explores what happens when the assumptions of the CLRM are violated. We will focus on two common problems: heteroskedasticity (non-constant variance of the error term) and multicollinearity (high correlation between independent variables). For each problem, we discuss its consequences for OLS estimation, how to detect it, and potential remedial measures.</p>
                     <h4 class="font-semibold text-lg mb-2">Key Topics:</h4>
                     <ul class="list-disc list-inside space-y-1 text-gray-700">
-                        <li>Representing Economic Models in Matrix Form</li>
-                        <li>Solving Systems of Linear Equations using Matrix Inversion</li>
-                        <li>Cramer's Rule and its Applications</li>
-                        <li>Leontief Input-Output Model</li>
+                        <li>Multicollinearity: Consequences, Detection, and Remedies</li>
+                        <li>Heteroskedasticity: Consequences, Detection (e.g., White's test), and Remedies</li>
+                        <li>Generalized Least Squares (GLS)</li>
                     </ul>
                 </div>
-
+                
                 <div class="course-card p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-bold mb-3">5. Integration and Differential Equations</h3>
-                    <p class="mb-4">The final unit introduces integral calculus and differential equations. Integration, the reverse of differentiation, is used to find total values from marginal values (e.g., total cost from marginal cost). Differential equations, which relate a function to its derivatives, are fundamental for analyzing the dynamic behavior of economic variables over time.</p>
+                    <h3 class="text-2xl font-bold mb-3">5. Dummy Variables and Qualitative Regressors</h3>
+                    <p class="mb-4">Economic data often contains qualitative information (e.g., gender, location). This unit introduces dummy variables, which allow us to incorporate such categorical variables into a regression model. We will learn how to use dummy variables to model differences in intercepts and slopes, and how to test for structural breaks in a relationship.</p>
                     <h4 class="font-semibold text-lg mb-2">Key Topics:</h4>
                     <ul class="list-disc list-inside space-y-1 text-gray-700">
-                        <li>Indefinite and Definite Integrals</li>
-                        <li>Applications: Finding Total Cost, Consumer and Producer Surplus</li>
-                        <li>First-Order Differential Equations</li>
-                        <li>Applications in Economic Dynamics (e.g., Solow Growth Model)</li>
+                        <li>Constructing and Interpreting Dummy Variables</li>
+                        <li>Dummy Variable Trap</li>
+                        <li>Modeling Differences in Intercepts and Slopes</li>
+                        <li>The Chow Test for Structural Stability</li>
                     </ul>
                 </div>
 
